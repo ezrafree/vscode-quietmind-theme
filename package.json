@@ -1,6 +1,7 @@
 {
   "name": "quiet-mind-theme",
   "displayName": "Quiet Mind Dark",
+  "icon": "icon.png",
   "description": "A near-black dark theme with a calm blue accent.",
   "version": "1.0.0",
   "publisher": "ezrafree",
