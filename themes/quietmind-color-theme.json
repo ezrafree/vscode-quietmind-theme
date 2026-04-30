@@ -1,0 +1,503 @@
+{
+  "name": "Quiet Mind Dark",
+  "type": "dark",
+  "colors": {
+
+    // ─── Title Bar ────────────────────────────────────────────────────────────
+    // The top bar showing the workspace name and window controls
+    "titleBar.activeBackground": "#030303",
+    "titleBar.activeForeground": "#cccccc",
+    "titleBar.inactiveBackground": "#0a0a0a",
+    "titleBar.inactiveForeground": "#666666",
+    "titleBar.border": "#1a1a1a",
+
+    // ─── Activity Bar ─────────────────────────────────────────────────────────
+    // The icon strip on the far left (Explorer, Search, Git, Extensions, etc.)
+    "activityBar.background": "#030303",
+    "activityBar.foreground": "#cccccc",
+    "activityBar.inactiveForeground": "#555555",
+    "activityBar.activeBorder": "#569CD6",
+    "activityBar.border": "#1a1a1a",
+    "activityBarBadge.background": "#569CD6",
+    "activityBarBadge.foreground": "#ffffff",
+
+    // ─── Sidebar ──────────────────────────────────────────────────────────────
+    // The panel next to the activity bar (file tree, search results, etc.)
+    "sideBar.background": "#060606",
+    "sideBar.foreground": "#aaaaaa",
+    "sideBar.border": "#1a1a1a",
+    "sideBarSectionHeader.background": "#0a0a0a",
+    "sideBarSectionHeader.foreground": "#cccccc",
+    "sideBarSectionHeader.border": "#1a1a1a",
+    "sideBarTitle.foreground": "#cccccc",
+
+    // ─── Lists & Trees ────────────────────────────────────────────────────────
+    // Selection, hover, and highlight states in file trees, quick input, etc.
+    "list.activeSelectionBackground": "#1a1a1a",
+    "list.activeSelectionForeground": "#ffffff",
+    "list.inactiveSelectionBackground": "#141414",
+    "list.inactiveSelectionForeground": "#cccccc",
+    "list.hoverBackground": "#111111",
+    "list.hoverForeground": "#cccccc",
+    "list.focusBackground": "#1a1a1a",
+    "list.highlightForeground": "#569CD6",
+
+    // ─── Editor ───────────────────────────────────────────────────────────────
+    // The main code editing area
+    "editor.background": "#080808",
+    "editor.foreground": "#abb2bf",
+    "editor.lineHighlightBackground": "#0f0f0f",
+    "editor.selectionBackground": "#264f78",
+    "editor.inactiveSelectionBackground": "#1a1a2e80",
+    "editor.selectionHighlightBackground": "#1a1a2e80",
+    "editor.wordHighlightBackground": "#1a1a2e80",
+    "editor.wordHighlightStrongBackground": "#264f7880",
+    "editor.findMatchBackground": "#264f78",
+    "editor.findMatchHighlightBackground": "#1a2a3a80",
+    "editorCursor.foreground": "#569CD6",
+    "editorWhitespace.foreground": "#2a2a2a",
+    "editorIndentGuide.background1": "#1e1e1e",
+    "editorIndentGuide.activeBackground1": "#3a3a3a",
+    "editorLineNumber.foreground": "#3a3a3a",
+    "editorLineNumber.activeForeground": "#569CD6",
+    "editorRuler.foreground": "#1a1a1a",
+
+    // ─── Editor Diagnostics ───────────────────────────────────────────────────
+    // Squiggly underlines for errors, warnings, and info hints
+    "editorError.foreground": "#ff6b6b",
+    "editorWarning.foreground": "#ffa657",
+    "editorInfo.foreground": "#569CD6",
+    "editorHint.foreground": "#569CD6",
+
+    // ─── Tab Bar ──────────────────────────────────────────────────────────────
+    // The row of open file tabs above the editor
+    "editorGroupHeader.tabsBackground": "#0a0a0a",
+    "editorGroupHeader.border": "#1a1a1a",
+    "tab.activeBackground": "#1e1e1e",
+    "tab.activeForeground": "#ffffff",
+    "tab.activeBorder": "#569CD6",
+    "tab.inactiveBackground": "#0a0a0a",
+    "tab.inactiveForeground": "#666666",
+    "tab.hoverBackground": "#141414",
+    "tab.hoverForeground": "#aaaaaa",
+    "tab.border": "#1a1a1a",
+    "tab.activeModifiedBorder": "#569CD6",
+    "tab.inactiveModifiedBorder": "#3a5a7a",
+    "tab.unfocusedActiveModifiedBorder": "#569CD6",
+    "tab.unfocusedInactiveModifiedBorder": "#3a5a7a",
+
+    // ─── Status Bar ───────────────────────────────────────────────────────────
+    // The bottom strip showing branch, errors, warnings, and editor info
+    "statusBar.background": "#030303",
+    "statusBar.foreground": "#666666",
+    "statusBar.border": "#1a1a1a",
+    "statusBar.noFolderBackground": "#030303",
+    "statusBar.debuggingBackground": "#1a1a2e",
+    "statusBar.debuggingForeground": "#ffffff",
+    "statusBarItem.remoteBackground": "#569CD6",  // git branch pill
+    "statusBarItem.remoteForeground": "#ffffff",
+    "statusBarItem.hoverBackground": "#1a1a1a",
+    "statusBarItem.activeBackground": "#222222",
+    "statusBarItem.errorBackground": "#8b0000",   // only shown when errors > 0
+    "statusBarItem.errorForeground": "#ff6b6b",
+    "statusBarItem.warningBackground": "#4a3800",  // only shown when warnings > 0
+    "statusBarItem.warningForeground": "#ffa657",
+
+    // ─── Problems Panel ───────────────────────────────────────────────────────
+    // Icons in the Problems panel (View → Problems)
+    "problemsErrorIcon.foreground": "#ff6b6b",
+    "problemsWarningIcon.foreground": "#ffa657",
+    "problemsInfoIcon.foreground": "#569CD6",
+
+    // ─── Panel ────────────────────────────────────────────────────────────────
+    // The bottom panel area (Terminal, Output, Problems, Debug Console)
+    "panel.background": "#060606",
+    "panel.border": "#1a1a1a",
+    "panelTitle.activeForeground": "#cccccc",
+    "panelTitle.activeBorder": "#569CD6",
+    "panelTitle.inactiveForeground": "#666666",
+
+    // ─── Terminal ─────────────────────────────────────────────────────────────
+    // Integrated terminal colors (16 ANSI colors + foreground/background)
+    "terminal.background": "#060606",
+    "terminal.foreground": "#abb2bf",
+    "terminal.ansiBlack": "#1e2127",
+    "terminal.ansiRed": "#e06c75",
+    "terminal.ansiGreen": "#98c379",
+    "terminal.ansiYellow": "#e5c07b",
+    "terminal.ansiBlue": "#569CD6",
+    "terminal.ansiMagenta": "#c678dd",
+    "terminal.ansiCyan": "#56b6c2",
+    "terminal.ansiWhite": "#abb2bf",
+    "terminal.ansiBrightBlack": "#5c6370",
+    "terminal.ansiBrightRed": "#ff6b6b",
+    "terminal.ansiBrightGreen": "#b5e890",
+    "terminal.ansiBrightYellow": "#ffd580",
+    "terminal.ansiBrightBlue": "#7ab8f5",
+    "terminal.ansiBrightMagenta": "#d18fe8",
+    "terminal.ansiBrightCyan": "#8be9fd",
+    "terminal.ansiBrightWhite": "#ffffff",
+
+    // ─── Text & Links ─────────────────────────────────────────────────────────
+    // Rendered text areas (markdown preview, welcome page, etc.)
+    "textCodeBlock.background": "#0f0f0f",
+    "textLink.foreground": "#569CD6",
+    "textLink.activeForeground": "#7ab8f5",
+
+    // ─── Scrollbar ────────────────────────────────────────────────────────────
+    // Nearly invisible — just enough to find your place
+    "scrollbarSlider.background": "#ffffff15",
+    "scrollbarSlider.hoverBackground": "#ffffff25",
+    "scrollbarSlider.activeBackground": "#ffffff35",
+
+    // ─── Inputs & Controls ────────────────────────────────────────────────────
+    // Text inputs, dropdowns, buttons, checkboxes
+    "input.background": "#0f0f0f",
+    "input.foreground": "#cccccc",
+    "input.border": "#1a1a1a",
+    "input.placeholderForeground": "#444444",
+    "inputOption.activeBorder": "#569CD6",
+    "focusBorder": "#569CD6",
+    "button.background": "#569CD6",
+    "button.foreground": "#ffffff",
+    "button.hoverBackground": "#7ab8f5",
+    "dropdown.background": "#0f0f0f",
+    "dropdown.foreground": "#cccccc",
+    "dropdown.border": "#1a1a1a",
+
+    // ─── Badges ───────────────────────────────────────────────────────────────
+    // Small count indicators (extension update counts, etc.)
+    "badge.background": "#569CD6",
+    "badge.foreground": "#ffffff",
+    "progressBar.background": "#569CD6",
+
+    // ─── Notifications ────────────────────────────────────────────────────────
+    // Toast notifications in the bottom-right corner
+    "notifications.background": "#0f0f0f",
+    "notifications.foreground": "#cccccc",
+    "notifications.border": "#1a1a1a",
+    "notificationLink.foreground": "#569CD6",
+
+    // ─── Quick Input ──────────────────────────────────────────────────────────
+    // Command palette and quick open (Cmd+P / Cmd+Shift+P)
+    "quickInput.background": "#0a0a0a",
+    "quickInput.foreground": "#cccccc",
+    "quickInputList.focusBackground": "#1a1a1a"
+
+  },
+  "tokenColors": [
+
+    // ─── Comments ─────────────────────────────────────────────────────────────
+    {
+      "name": "Comment",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#5c6370",
+        "fontStyle": "italic"
+      }
+    },
+
+    // ─── Strings ──────────────────────────────────────────────────────────────
+    {
+      "name": "String",
+      "scope": ["string", "string.template"],
+      "settings": {
+        "foreground": "#98c379"
+      }
+    },
+    {
+      "name": "String escape / special chars",
+      "scope": ["constant.character.escape", "string.regexp"],
+      "settings": {
+        "foreground": "#56b6c2"
+      }
+    },
+
+    // ─── Constants ────────────────────────────────────────────────────────────
+    {
+      "name": "Number / Boolean / Null",
+      "scope": [
+        "constant.numeric",
+        "constant.language.boolean",
+        "constant.language.null",
+        "constant.language.undefined"
+      ],
+      "settings": {
+        "foreground": "#569CD6"
+      }
+    },
+
+    // ─── Keywords & Storage ───────────────────────────────────────────────────
+    {
+      "name": "Keyword",
+      "scope": [
+        "keyword",
+        "keyword.control",
+        "keyword.operator.new",
+        "keyword.operator.expression",
+        "keyword.operator.logical",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+    {
+      "name": "Operator",
+      "scope": ["keyword.operator", "punctuation.separator"],
+      "settings": {
+        "foreground": "#56b6c2"
+      }
+    },
+
+    // ─── Functions ────────────────────────────────────────────────────────────
+    {
+      "name": "Function / Method",
+      "scope": [
+        "entity.name.function",
+        "meta.function-call.generic",
+        "support.function"
+      ],
+      "settings": {
+        "foreground": "#61afef"
+      }
+    },
+
+    // ─── Types & Classes ──────────────────────────────────────────────────────
+    {
+      "name": "Class / Type",
+      "scope": [
+        "entity.name.type",
+        "entity.name.class",
+        "entity.other.inherited-class",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#e5c07b"
+      }
+    },
+    {
+      "name": "TypeScript type annotations",
+      "scope": [
+        "entity.name.type.ts",
+        "entity.name.type.tsx",
+        "support.type.primitive.ts",
+        "support.type.primitive.tsx",
+        "support.type.builtin.ts",
+        "support.type.builtin.tsx"
+      ],
+      "settings": {
+        "foreground": "#e5c07b"
+      }
+    },
+    {
+      "name": "Interface / Enum",
+      "scope": [
+        "entity.name.type.interface",
+        "entity.name.type.enum"
+      ],
+      "settings": {
+        "foreground": "#e5c07b",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "TypeScript generic type params",
+      "scope": [
+        "meta.type.parameters entity.name.type"
+      ],
+      "settings": {
+        "foreground": "#e5c07b",
+        "fontStyle": "italic"
+      }
+    },
+
+    // ─── Variables ────────────────────────────────────────────────────────────
+    {
+      "name": "Variable",
+      "scope": [
+        "variable",
+        "variable.other.readwrite",
+        "variable.other.object"
+      ],
+      "settings": {
+        "foreground": "#abb2bf"
+      }
+    },
+    {
+      "name": "Variable — this/self",
+      "scope": ["variable.language"],
+      "settings": {
+        "foreground": "#e06c75",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Constant",
+      "scope": [
+        "variable.other.constant",
+        "constant.other"
+      ],
+      "settings": {
+        "foreground": "#d19a66"
+      }
+    },
+    {
+      "name": "Property / Member access",
+      "scope": [
+        "variable.other.property",
+        "variable.other.object.property",
+        "support.variable.property"
+      ],
+      "settings": {
+        "foreground": "#e06c75"
+      }
+    },
+    {
+      "name": "Object key",
+      "scope": [
+        "meta.object-literal.key",
+        "meta.object.member"
+      ],
+      "settings": {
+        "foreground": "#e06c75"
+      }
+    },
+
+    // ─── Punctuation ──────────────────────────────────────────────────────────
+    {
+      "name": "Punctuation",
+      "scope": [
+        "punctuation",
+        "meta.brace",
+        "meta.delimiter"
+      ],
+      "settings": {
+        "foreground": "#abb2bf"
+      }
+    },
+
+    // ─── JSX / HTML ───────────────────────────────────────────────────────────
+    {
+      "name": "JSX tag name",
+      "scope": [
+        "entity.name.tag",
+        "support.class.component"
+      ],
+      "settings": {
+        "foreground": "#e06c75"
+      }
+    },
+    {
+      "name": "JSX attribute name",
+      "scope": ["entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#d19a66"
+      }
+    },
+
+    // ─── CSS ──────────────────────────────────────────────────────────────────
+    {
+      "name": "CSS class / id",
+      "scope": [
+        "entity.other.attribute-name.class",
+        "entity.other.attribute-name.id"
+      ],
+      "settings": {
+        "foreground": "#d19a66"
+      }
+    },
+    {
+      "name": "CSS property",
+      "scope": ["support.type.property-name.css"],
+      "settings": {
+        "foreground": "#e06c75"
+      }
+    },
+    {
+      "name": "CSS value / unit",
+      "scope": [
+        "support.constant.property-value.css",
+        "keyword.other.unit.css"
+      ],
+      "settings": {
+        "foreground": "#98c379"
+      }
+    },
+
+    // ─── Imports ──────────────────────────────────────────────────────────────
+    {
+      "name": "Import / Export",
+      "scope": [
+        "keyword.control.import",
+        "keyword.control.export",
+        "keyword.control.from",
+        "keyword.control.as"
+      ],
+      "settings": {
+        "foreground": "#c678dd"
+      }
+    },
+
+    // ─── Decorators ───────────────────────────────────────────────────────────
+    {
+      "name": "Decorator",
+      "scope": ["meta.decorator", "punctuation.decorator"],
+      "settings": {
+        "foreground": "#d19a66",
+        "fontStyle": "italic"
+      }
+    },
+
+    // ─── Markdown ─────────────────────────────────────────────────────────────
+    {
+      "name": "Markdown heading",
+      "scope": ["markup.heading", "entity.name.section.markdown"],
+      "settings": {
+        "foreground": "#e06c75",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown bold",
+      "scope": ["markup.bold"],
+      "settings": {
+        "foreground": "#d19a66",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown italic",
+      "scope": ["markup.italic"],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markdown inline code",
+      "scope": ["markup.inline.raw"],
+      "settings": {
+        "foreground": "#98c379"
+      }
+    },
+    {
+      "name": "Markdown link",
+      "scope": ["markup.underline.link"],
+      "settings": {
+        "foreground": "#569CD6"
+      }
+    },
+
+    // ─── Invalid / Deprecated ─────────────────────────────────────────────────
+    {
+      "name": "Invalid / Deprecated",
+      "scope": ["invalid", "invalid.deprecated"],
+      "settings": {
+        "foreground": "#ff6b6b",
+        "fontStyle": "strikethrough"
+      }
+    }
+
+  ]
+}
