@@ -1,5 +1,14 @@
 # Quiet Mind Dark
 
+<p>
+  <a href="https://marketplace.visualstudio.com/items?itemName=ezrafree.quiet-mind-theme">
+    <img src="https://vsmarketplacebadges.dev/version/ezrafree.quiet-mind-theme.svg" alt="Version" />
+  </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=ezrafree.quiet-mind-theme">
+    <img src="https://vsmarketplacebadges.dev/installs/ezrafree.quiet-mind-theme.svg" alt="Installs" />
+  </a>
+</p>
+
 A near-black VS Code theme with a calm blue accent (`#569CD6`). Built for long sessions. Dark enough to mean it, minimal enough to stay out of the way.
 
 ## Colors
@@ -14,10 +23,10 @@ A near-black VS Code theme with a calm blue accent (`#569CD6`). Built for long s
 # From the extension directory
 npm install -g @vscode/vsce
 vsce package
-code --install-extension vscode-quietmind-theme-1.0.0.vsix
+code --install-extension vscode-quiet-mind-theme-1.0.0.vsix
 ```
 
-Or copy the folder to `~/.vscode/extensions/vscode-quietmind-theme` and restart VS Code.
+Or copy the folder to `~/.vscode/extensions/vscode-quiet-mind-theme` and restart VS Code.
 
 ## Recommended settings
 
@@ -28,3 +37,15 @@ Or copy the folder to `~/.vscode/extensions/vscode-quietmind-theme` and restart 
   "editor.minimap.enabled": false
 }
 ```
+
+## My Other Extensions
+
+You can check out my other extensions on the Visual Studio Marketplace:
+
+https://marketplace.visualstudio.com/publishers/ezrafree
+
+## My Other Projects
+
+You can check out my other projects on my portfolio:
+
+https://www.quietmindcreative.com/portfolio/
